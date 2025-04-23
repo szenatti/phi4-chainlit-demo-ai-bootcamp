@@ -1,0 +1,87 @@
+####################################
+# 1. OS-level junk
+####################################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Linux
+*~
+
+####################################
+# 2. Editors / IDEs
+####################################
+# VS Code
+.vscode/
+.history/
+# JetBrains / IntelliJ / PyCharm
+.idea/
+*.iml
+# Vim / NeoVim
+*.swp
+*.swo
+# Emacs
+*~
+
+####################################
+# 3. Language & toolchain artifacts
+####################################
+# Node / Front-end
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+env/
+# Java / Kotlin
+*.class
+*.jar
+*.war
+*.ear
+# Go
+*.exe
+*.test
+*.out
+# C / C++
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+####################################
+# 4. Build-system & packaging
+####################################
+dist/
+build/
+coverage/
+*.egg-info/
+target/
+*.lock
+*.log
+
+####################################
+# 5. Secrets (never commit!)
+####################################
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+*.env
+
+####################################
+# 6. Others
+####################################
+# By default ignore everything in /tmp
+tmp/
+*.tmp
